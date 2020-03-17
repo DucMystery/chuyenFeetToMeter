@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuc Hanh chuyen doi meet sang feet</title>
+</head>
+<body>
+<script>
+    function feetToMeter(number) {
+        let meter = number*0.305;
+        return meter;
+    }
+    function meterToFeet(number) {
+        let feet =number*3.279;
+        return feet;
+    }
+    let numberInput=parseFloat(prompt("Moi nhap vao so:"));
+    let feet = meterToFeet(numberInput);
+    let meter = feetToMeter(numberInput);
+    document.write("Chuyen qua tu feet qua meter :"+meter+"<br/>");
+    document.write("Chuyen qua tu meter qua feet :"+feet);
+</script>
+</body>
+</html>
